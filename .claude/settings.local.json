@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install @mui/material @mui/icons-material @emotion/react @emotion/styled react-router-dom --legacy-peer-deps)",
+      "Bash(npx react-scripts build)",
+      "Bash(npm install typescript @types/react @types/react-dom @types/react-router-dom --legacy-peer-deps)",
+      "Bash(npm run build)",
+      "Bash(curl -s \"https://swapi.tech/api/people?page=1&limit=2\")",
+      "Bash(curl -s \"https://www.swapi.tech/api/people/1\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); p=d[''result''][''properties'']; print\\(''name:'', p[''name''], ''height:'', p[''height''], ''homeworld:'', p[''homeworld''], ''films count:'', len\\(p.get\\(''films'', []\\)\\)\\)\")",
+      "Bash(curl -s \"https://www.swapi.tech/api/planets/1\")",
+      "Bash(curl -s \"https://www.swapi.tech/api/films/1\")",
+      "Bash(curl -s \"https://swapi.tech/api/people?search=luke\")",
+      "Bash(curl -s \"https://swapi.tech/api/people?page=1&limit=100\")"
+    ]
+  }
+}
